@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Fraunces;
+    src: url(../fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+.body{
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    background-color: hsl(0, 0%, 100%);
+}
+.body img{
+    height: 450px;
+    width: 300px;
+}
+.text{
+    padding: 20px;
+}
+#beginningtext{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+#beginning{
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(212, 21%, 14%);
+}
+#text{
+    font-family: "Montserrat";
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.price p{
+    font-size: 30px;
+    font-family: "Fraunces";
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+.price sup{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: 1.2em;
+}
+.button button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    gap: 1em;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.button button:active{
+    background-color:hsl(158, 36%, 31%) ;
+}
+.button img{
+    height: 1em;
+    width: 1em;
+}
